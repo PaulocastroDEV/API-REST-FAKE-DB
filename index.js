@@ -30,7 +30,7 @@ const db = {
   ],
 };
 let id = db.games[2].id;
-console.log(id);
+
 app.get("/games", (req, res) => {
   res.status(200).json(db.games);
 });
